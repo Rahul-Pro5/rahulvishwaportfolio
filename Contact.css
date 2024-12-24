@@ -1,0 +1,217 @@
+:root {
+  --bg-color: #ffffff;
+  --letter-spacing: 3px;
+  --font-fam1: 'Satoshi', sans-serif;
+  --font-fam2: 'Bebas Neue', sans-serif;
+  }
+
+.contact-container {
+    width: 100%;
+    height: 935px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+}
+
+.image-container {
+    align-self: stretch;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    height: 497px;
+  }
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.contact-info-container {
+    height: 439px;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: solid 1px #000;
+    background-color: #fff;
+  }
+
+  .contact-info {
+    width: 616px;
+    height: 419px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 28px;
+    padding: 73px 0;
+  }
+
+  .CONTACT {
+    width: 616px;
+    height: 70px;
+    flex-grow: 0;
+    font-family: var(--font-fam2);
+    font-size: 85.4px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    margin: 20px;
+  }
+
+  .Feel-free-to-reach-out-for-collaborations-freelance-projects-or-inquiries-Im-always-excited-to-c {
+    height: 57px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: var(--font-fam1);
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 25px;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #000;
+    margin: 10px 20px;
+  }
+
+  /* .Addressandphone {
+    height: 57px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+  } */
+
+  .Addressandphone li {
+    cursor: pointer;
+    list-style-type: none;
+    font-family: var(--font-fam1);
+    font-size: 14px;
+  }
+
+  .contact-input {
+    width: 616px;
+    height: 407px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 28px;
+    padding: 73px 0;
+    margin: 20px;
+  }
+
+  .name-input {
+    width: 616px;
+    height: 26px;
+    flex-grow: 0;
+    padding: 0 0 2px;
+    border-bottom: solid 1px #000;
+  }
+
+  .Name {
+    width: 616px;
+    height: 24px;
+    font-family: var(--font-fam1);
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #000;
+  }
+
+  .email-input {
+    width: 616px;
+    height: 26px;
+    flex-grow: 0;
+    padding: 0 0 2px;
+    border-bottom: solid 1px #000;
+  }
+
+  .Email {
+    width: 616px;
+    height: 24px;
+    font-family: var(--font-fam1);
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #000;
+  }
+
+  .phone-input {
+    width: 616px;
+    height: 26px;
+    flex-grow: 0;
+    padding: 0 0 2px;
+    border-bottom: solid 1px #000;
+  }
+
+  .Phone {
+    width: 616px;
+    height: 24px;
+    font-family: var(--font-fam1);
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #000;
+  }
+
+  .message-input {
+    width: 616px;
+    height: 99px;
+    flex-grow: 0;
+    border-bottom: solid 1px #000;
+  }
+
+  .Message {
+    width: 616px;
+    height: 99px;
+    margin: 28px 0 0;
+    font-family: var(--font-fam1);
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #000;
+  }
